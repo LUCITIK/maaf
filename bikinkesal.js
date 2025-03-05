@@ -35,7 +35,7 @@ document.getElementById("loveIn").onclick = function() {
     }
   function hsementara(){
     ketgeser.style="position:relative;";
-    thisgeser+=1;aktigeser=0;setTimeout(munculkembali,500)
+    thisgeser+=1;aktigeser=0;setTimeout(munculkembali,100)
   }
   function munculkembali(){
     if(thisgeser<totalPesan){
